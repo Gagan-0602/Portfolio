@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Portfolio</string>
+
+
+    <string name="REGISTER">
+      <u>REGISTER</u>
+    </string>
+
+    <string name="login">
+      <u>LOGIN HERE</u>
+    </string>
+    <string name="project_management">PROJECT\nMANAGEMENT</string>
+    <string name="user_management">USER\nMANAGEMENT</string>
+</resources>

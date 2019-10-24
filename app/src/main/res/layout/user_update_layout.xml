@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/toolbar"
+        android:gravity="center"
+        android:background="#fff">
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:adjustViewBounds="true"
+        android:id="@+id/backuserupdate"
+        android:src="@drawable/back_ic" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/updatetool"
+            android:text="USER UPDATE"
+            android:textSize="20dp"
+            android:layout_weight="9"
+            android:textColor="#000"
+            android:gravity="center"
+            android:textStyle="bold"/>
+
+    </android.support.v7.widget.Toolbar>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/linear"
+            android:orientation="vertical"
+            android:layout_margin="10dp"
+            android:paddingBottom="30dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:paddingTop="30dp"
+            android:background="@color/bg_color"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/logo"
+                android:src="@drawable/logo"
+                android:adjustViewBounds="true"/>
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/Uname"
+                android:hint="NAME"
+                android:background="@drawable/edittextdesign"
+                android:layout_marginTop="30dp"
+                android:ems="20"
+                android:inputType="textPersonName"
+                android:drawableLeft="@drawable/username"
+                android:drawablePadding="10dp"
+                android:padding="10dp"
+                />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/Uemail"
+                android:hint="EMAIL"
+                android:padding="10dp"
+                android:inputType="textWebEmailAddress"
+                android:drawableLeft="@drawable/mail"
+                android:drawablePadding="10dp"
+                android:background="@drawable/edittextdesign"
+                android:layout_marginTop="30dp"
+                android:ems="15"
+                />
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/Upassword"
+                android:hint="PASSWORD"
+                android:padding="10dp"
+                android:inputType="numberPassword"
+                android:drawableLeft="@drawable/password"
+                android:drawablePadding="10dp"
+                android:background="@drawable/edittextdesign"
+                android:layout_marginTop="30dp"
+                android:ems="15"
+                />
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/Uphone"
+                android:hint="PHONE"
+                android:padding="10dp"
+                android:inputType="number"
+                android:drawableLeft="@drawable/phone"
+                android:drawablePadding="10dp"
+                android:background="@drawable/edittextdesign"
+                android:layout_marginTop="30dp"
+                android:ems="15"
+                />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/Uaddress"
+                android:hint="ADDRESS"
+                android:padding="10dp"
+                android:inputType="textMultiLine"
+                android:drawableLeft="@drawable/address"
+                android:drawablePadding="10dp"
+                android:background="@drawable/edittextdesign"
+                android:layout_marginTop="30dp"
+                android:ems="15"
+                />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/updatebutton"
+                android:hint="UPDATE"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textColor="#000"
+                android:background="@drawable/buttondesign"
+                android:layout_marginTop="30dp"
+                android:ems="8"
+                />
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/toolbarlog"
+        android:gravity="center"
+        android:background="#fff">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/ttooltext"
+            android:text="LOGIN"
+            android:textColor="#000"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:textStyle="bold"/>
+    </android.support.v7.widget.Toolbar>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linear"
+        android:orientation="vertical"
+        android:layout_margin="30dp"
+        android:paddingBottom="30dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="50dp"
+        android:background="#e778d4ed"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/logo"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/logo"
+            android:adjustViewBounds="true"/>
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/username"
+            android:hint="USERNAME"
+            android:background="@drawable/edittextdesign"
+            android:layout_marginTop="30dp"
+            android:ems="20"
+            android:inputType="textPersonName"
+            android:drawableLeft="@drawable/username"
+            android:drawablePadding="10dp"
+            android:padding="10dp"
+            />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/password"
+            android:hint="PASSWORD"
+            android:padding="10dp"
+            android:drawableLeft="@drawable/password"
+            android:drawablePadding="10dp"
+            android:background="@drawable/edittextdesign"
+            android:layout_marginTop="30dp"
+            android:ems="15"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/loginbutton"
+            android:hint="LOGIN"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:background="@drawable/buttondesign"
+            android:layout_marginTop="30dp"
+            android:ems="8"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/ortext"
+            android:text="OR"
+            android:textColor="#000"
+            android:gravity="center"
+            android:layout_marginTop="20dp"
+            android:ems="15"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/account"
+            android:text="Don't have an account?"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:ems="15"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/registertext"
+            android:text="@string/REGISTER"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:textColor="#000"
+            android:layout_marginTop="1dp"
+            android:ems="15"
+
+            />
+    </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
